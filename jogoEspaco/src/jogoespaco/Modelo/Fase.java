@@ -11,7 +11,7 @@ public class Fase extends JPanel {
 	private Image fundo;
 	
 	public Fase() {
-		ImageIcon referencia = new ImageIcon("C:\\Users\\a886409\\git\\PROJECTS\\jogoEspaco\\res\\blackground.png");
+		ImageIcon referencia = new ImageIcon("res\\blackground.png");
 		fundo = referencia.getImage();
 	}
 	public void paint(Graphics g) {
